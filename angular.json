@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "f1c655ff-fdf5-4aa4-97ab-64cbbe43943d"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -45,6 +48,7 @@
                   "maximumError": "4kb"
                 }
               ],
+              "statsJson": true,
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
